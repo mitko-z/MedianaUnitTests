@@ -1,0 +1,34 @@
+﻿  UnitTests.cpp
+e:\programirane\alcatraz ai\mediana\mediana\median.cpp(30): warning C4244: 'return': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  e:\programirane\alcatraz ai\mediana\mediana\median.cpp(14): note: while compiling class template member function 'T Median<T>::getMedian(void)'
+          with
+          [
+              T=float
+          ]
+  e:\programirane\alcatraz ai\mediana\unittests\unittests.cpp(25): note: see reference to function template instantiation 'T Median<T>::getMedian(void)' being compiled
+          with
+          [
+              T=float
+          ]
+  e:\programirane\alcatraz ai\mediana\mediana\templates.cpp(4): note: see reference to class template instantiation 'Median<float>' being compiled
+e:\programirane\alcatraz ai\mediana\mediana\median.cpp(30): warning C4244: 'return': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+  e:\programirane\alcatraz ai\mediana\mediana\median.cpp(14): note: while compiling class template member function 'T Median<T>::getMedian(void)'
+          with
+          [
+              T=int
+          ]
+  e:\programirane\alcatraz ai\mediana\unittests\unittests.cpp(49): note: see reference to function template instantiation 'T Median<T>::getMedian(void)' being compiled
+          with
+          [
+              T=int
+          ]
+  e:\programirane\alcatraz ai\mediana\mediana\templates.cpp(5): note: see reference to class template instantiation 'Median<int>' being compiled
+  UnitTests.vcxproj -> E:\programirane\Alcatraz AI\Mediana\Debug\UnitTests.dll
